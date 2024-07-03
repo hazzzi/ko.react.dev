@@ -98,7 +98,7 @@
     "webpack-bundle-analyzer": "^4.5.0"
   },
   "engines": {
-    "node": "^16.8.0 || ^18.0.0 || ^19.0.0 || ^20.0.0 || ^21.0.0"
+    "node": ">=16.8.0"
   },
   "nextBundleAnalysis": {
     "budget": null,
@@ -108,8 +108,5 @@
   "lint-staged": {
     "*.{js,ts,jsx,tsx,css}": "yarn prettier",
     "src/**/*.md": "yarn fix-headings"
-  },
-  "main": "index.js",
-  "repository": "https://github.com/wlals1126/ko.react.dev.git",
-  "author": "유지민 <a01040987587@gmail.com>"
+  }
 }
